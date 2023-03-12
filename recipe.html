@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <title>Recipe Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=PT+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="banner">
@@ -10,19 +15,19 @@
             <img src="img/logo.png.png" class="logo">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Recipes</a></li>
+                <li>
+                    <a href="#">Recipes</a>
+                    <div class="dropdown_menu">
+                        <ul>
+                            <li><a href="HumbaRecipe.html">Humba</a></li>
+                            <li><a href="#">Burger</a></li>
+                            <li><a href="#">Sisig</a></li>
+                            <li><a href="#">Adobo</a></li>
+                        </ul>
+                    </div>
+                </li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contacts</a>
-
-                <div class="sub-menu">
-                    <ul>
-                        <li><a href="#">Humba</a></li>
-                        <li><a href="#">Burger</a></li>
-                        <li><a href="#">Adobo</a></li>
-                        <li><a href="#">Sisig</a></li>   
-                    </ul>
-                </div>
-            </li>
+                <li><a href="#">Contacts</a></li>
             </ul>
         </nav>
         <div class="content">
